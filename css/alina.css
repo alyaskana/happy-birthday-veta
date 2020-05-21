@@ -64,6 +64,8 @@ p {
   border: 3px solid #24408F;
   background-color: #FAD3E4;
   cursor: pointer;
+  text-decoration: none;
+  color: inherit;
 }
 
 .show {
