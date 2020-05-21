@@ -33,6 +33,7 @@ h1 {
   font-family: 'Dancing Fool';
   font-size: 12vh;
   text-align: center;
+  -webkit-user-select: none;
 }
 
 p {
@@ -41,6 +42,7 @@ p {
   left: 20px;
   font-size: 2vh;
   font-family: Arial;
+  -webkit-user-select: none;
 }
 
 .canvas {
