@@ -10,6 +10,10 @@ function draw() {
     drawFlower(flower.x, flower.y, flower.d, flower.count, flower.size, flower.color1, flower.color2)
   })
 
+  if(flowers.length >= 20) {
+    let btn = select('.btn')
+    btn.addClass('show')
+  }
 }
 
 
